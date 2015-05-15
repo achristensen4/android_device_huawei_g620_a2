@@ -40,6 +40,9 @@ TARGET_NO_BOOTLOADER := true
 # Display
 USE_OPENGL_RENDERER := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_msm
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
@@ -57,6 +60,9 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 25165824
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1879048192
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 4504648704 # 4504665088 - 16384
 BOARD_FLASH_BLOCK_SIZE := 131072
+
+# Power
+TARGET_POWERHAL_VARIANT := qcom
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
