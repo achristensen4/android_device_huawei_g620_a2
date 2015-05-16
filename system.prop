@@ -1,3 +1,11 @@
 #
 # system.prop for g620_a2
 #
+
+debug.sf.hw=1
+debug.egl.hw=1
+debug.composition.type=c2d
+persist.hwc.mdpcomp.enable=true
+debug.mdpcomp.logs=0
+# 196608 is decimal for 0x30000 to report version 3
+ro.opengles.version=196608

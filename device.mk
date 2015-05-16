@@ -47,6 +47,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
+# Display
+PRODUCT_PACKAGES += \
+    copybit.msm8226 \
+    gralloc.msm8226 \
+    hwcomposer.msm8226 \
+    libtinyxml \
+    memtrack.msm8226
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8226
