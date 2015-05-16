@@ -74,5 +74,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.qcom.wifi.sh \
+    init.target.rc \
     qca6234-service.sh \
     ueventd.qcom.rc
