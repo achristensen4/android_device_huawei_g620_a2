@@ -1,3 +1,19 @@
+# Audio
+etc/sound_param/h891l/Global_cal.acdb
+etc/sound_param/h891l/General_cal.acdb
+etc/sound_param/h891l/Hdmi_cal.acdb
+etc/sound_param/h891l/Headset_cal.acdb
+etc/sound_param/h891l/Speaker_cal.acdb
+etc/sound_param/h891l/Handset_cal.acdb
+etc/sound_param/h891l/Bluetooth_cal.acdb
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+
 # EGL
 vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/libEGL_adreno.so
