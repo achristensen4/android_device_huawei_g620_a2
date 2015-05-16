@@ -1,3 +1,14 @@
+# ADSP
+bin/adsprpcd
+vendor/lib/libadsprpc.so
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib/libfastcvopt.so
+vendor/lib/libscve.so
+vendor/lib/rfsa/adsp/libadsp_denoise_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+
 # Audio
 etc/sound_param/h891l/Global_cal.acdb
 etc/sound_param/h891l/General_cal.acdb
