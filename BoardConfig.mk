@@ -15,6 +15,8 @@
 
 LOCAL_PATH := device/huawei/g620_a2
 
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
