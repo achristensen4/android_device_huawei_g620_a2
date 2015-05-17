@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     qca6234-service.sh \
     ueventd.qcom.rc
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf
+
 # Wifi
 PRODUCT_PACKAGES += \
     dhcpcd.conf \

@@ -71,6 +71,11 @@ vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
+# Thermal
+bin/thermal-engine
+vendor/lib/libthermalclient.so
+vendor/lib/libthermalioctl.so
+
 # Venus (media) firmware
 etc/firmware/venus.b00
 etc/firmware/venus.b01
