@@ -134,3 +134,33 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     qca6234-service.sh \
     ueventd.qcom.rc
+
+# Wifi
+PRODUCT_PACKAGES += \
+    dhcpcd.conf \
+    hostapd.accept \
+    hostapd.conf \
+    hostapd.deny \
+    p2p_supplicant_overlay.conf \
+    wpa_supplicant.conf \
+    wpa_supplicant_overlay.conf
+
+PRODUCT_PACKAGES += \
+    hostapd \
+    libQWiFiSoftApCfg \
+    libcurl \
+    libqsap_sdk \
+    libwpa_client \
+    wcnss_service \
+    wpa_supplicant
+
+# Wifi firmware symlinks
+PRODUCT_PACKAGES += \
+    WCNSS_qcom_wlan_nv.bin \
+    WCNSS_qcom_cfg.ini
+
+# Wifi firmware
+PRODUCT_COPY_FILES += \
+    kernel/huawei/g620/drivers/staging/prima/firmware_bin/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+    kernel/huawei/g620/drivers/staging/prima/firmware_bin/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    kernel/huawei/g620/drivers/staging/prima/firmware_bin/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
