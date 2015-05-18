@@ -30,6 +30,9 @@ bin/btnvtool
 bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 
+# Charger
+bin/charger_monitor
+
 # EGL
 vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/libEGL_adreno.so

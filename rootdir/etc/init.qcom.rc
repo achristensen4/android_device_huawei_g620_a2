@@ -793,7 +793,7 @@ on property:persist.usb.hvdcp.detect=true
 on property:persist.usb.hvdcp.detect=false
     stop hvdcp
 
-service charger_monitor /system/bin/charger_monitor
+service charger_monitor /system/bin/charger_monitor qpnp_charger 1100000 63
     user system
     group system
     disabled
