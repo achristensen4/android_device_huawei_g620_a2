@@ -66,6 +66,11 @@ on boot
     # Enable Focaltech touch controller auto firmware update
     write /sys/bus/i2c/drivers/ft5x06_ts/5-0038/update_fw 1
 
+    write /sys/bus/msm_subsys/devices/subsys0/restart_level related
+    write /sys/bus/msm_subsys/devices/subsys1/restart_level related
+    write /sys/bus/msm_subsys/devices/subsys2/restart_level related
+    write /sys/bus/msm_subsys/devices/subsys3/restart_level related
+
 #Start the qcom-system-daemon service
 service qcomsysd /system/bin/qcom-system-daemon
     class main
