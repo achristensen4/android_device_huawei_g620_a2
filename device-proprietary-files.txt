@@ -78,6 +78,28 @@ vendor/lib/libqmiservices.so
 bin/qcom-system-daemon
 vendor/lib/libsubsystem_control.so
 
+# Radio
+-app/qcrilmsgtunnel.apk
+bin/libqmi_oem_main
+bin/netmgrd
+bin/oeminfo_server
+bin/qmuxd
+bin/rfs_access
+#bin/rild
+bin/rmt_oeminfo
+bin/rmt_storage
+etc/permissions/qcnvitems.xml
+etc/permissions/qcrilhook.xml
+-framework/qcnvitems.jar
+-framework/qcrilhook.jar
+lib/liboeminfo.so
+lib/libqmi_nv_api.so
+lib/libqmi_oem_api.so
+#lib/libril.so
+vendor/lib/libnetmgr.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libril-qcril-hook-oem.so
+
 # Thermal
 bin/thermal-engine
 vendor/lib/libthermalclient.so

@@ -163,6 +163,17 @@ service ims_rtp_daemon /system/bin/ims_rtp_daemon
 on property:sys.ims.DATA_DAEMON_STATUS=1
     start ims_rtp_daemon
 
+service libqmi_oem_main /system/bin/libqmi_oem_main
+    class main
+
+service rmt_oeminfo /system/bin/rmt_oeminfo
+    class core
+    user root
+
+service oeminfo_server /system/bin/oeminfo_server
+    class core
+    user root
+
 service wcnss-service /system/bin/wcnss_service
    class main
    user system

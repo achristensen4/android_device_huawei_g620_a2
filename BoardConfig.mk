@@ -104,6 +104,9 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 BOARD_CHARGING_CMDLINE_NAME := "androidboot.mode"
 BOARD_CHARGING_CMDLINE_VALUE := "hwcharger"
 
+# RIL
+BOARD_PROVIDES_LIBRIL := false
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 

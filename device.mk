@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8226
 
+# Radio
+PRODUCT_BOOT_JARS += \
+    qcrilhook
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
