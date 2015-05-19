@@ -100,6 +100,10 @@ vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 
+# Synaptics
+etc/firmware/h891L_eely_fw.img
+etc/firmware/h891L_ofilm_fw.img
+
 # Thermal
 bin/thermal-engine
 vendor/lib/libthermalclient.so
