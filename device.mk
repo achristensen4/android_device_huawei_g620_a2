@@ -55,6 +55,10 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     memtrack.msm8226
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.msm8226
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8226
