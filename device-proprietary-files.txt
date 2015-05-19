@@ -104,6 +104,16 @@ vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 
+# Sensors
+bin/sensors.qcom
+vendor/lib/hw/sensors.msm8226.so
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+lib/liboeminfo_oem_api.so
+etc/sensor_def_qcomdev.conf
+vendor/lib/libAKM8963.so
+vendor/lib/libAKM8975.so
+
 # Synaptics
 etc/firmware/h891L_eely_fw.img
 etc/firmware/h891L_ofilm_fw.img
