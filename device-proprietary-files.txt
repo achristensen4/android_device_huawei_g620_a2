@@ -74,6 +74,10 @@ vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
+# QCOM system daemon
+bin/qcom-system-daemon
+vendor/lib/libsubsystem_control.so
+
 # Thermal
 bin/thermal-engine
 vendor/lib/libthermalclient.so
