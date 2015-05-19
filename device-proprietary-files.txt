@@ -55,6 +55,10 @@ vendor/lib/libscale.so
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 
+# Perf
+bin/mpdecision
+vendor/lib/libqc-opt.so
+
 # Qualcomm framework
 bin/irsc_util
 vendor/lib/libdiag.so
