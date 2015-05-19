@@ -351,10 +351,10 @@ case "$target" in
         echo 1 > /sys/module/msm_pm/modes/cpu2/standalone_power_collapse/idle_enabled
         echo 1 > /sys/module/msm_pm/modes/cpu3/standalone_power_collapse/idle_enabled
         echo 1 > /sys/module/msm_pm/modes/cpu0/power_collapse/idle_enabled
-        echo 0 > /sys/devices/system/cpu/cpu1/online
-        echo 0 > /sys/devices/system/cpu/cpu2/online
-        echo 0 > /sys/devices/system/cpu/cpu3/online
-        echo "performance" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+        echo 1 > /sys/devices/system/cpu/cpu1/online
+        echo 1 > /sys/devices/system/cpu/cpu2/online
+        echo 1 > /sys/devices/system/cpu/cpu3/online
+        echo "ondemand" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
         echo 50000 > /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate
         echo 90 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold
         echo 1 > /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy
@@ -365,10 +365,10 @@ case "$target" in
         echo 787200 > /sys/devices/system/cpu/cpufreq/ondemand/optimal_freq
         echo 300000 > /sys/devices/system/cpu/cpufreq/ondemand/sync_freq
         echo 80 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold_any_cpu_load
-        echo 787200 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+        echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
         echo 787200 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
         #Below entries are to set the GPU frequency and DCVS governor
-        echo 200000000 > /sys/class/kgsl/kgsl-3d0/devfreq/max_freq
+        echo 450000000 > /sys/class/kgsl/kgsl-3d0/devfreq/max_freq
         echo 200000000 > /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
         echo performance > /sys/class/kgsl/kgsl-3d0/devfreq/governor
         chown -h system /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
