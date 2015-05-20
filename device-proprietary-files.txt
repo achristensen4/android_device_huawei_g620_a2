@@ -33,6 +33,24 @@ vendor/lib/libbtnv.so
 # Charger
 bin/charger_monitor
 
+# DRM
+bin/qseecomd
+lib/libdrmdecrypt.so
+lib/libsecure.so
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libdrmdiag.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libprdrmdecrypt.so
+vendor/lib/librpmb.so
+vendor/lib/libssd.so
+vendor/lib/libtzplayready.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libwvm.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
 # EGL
 vendor/lib/egl/eglsubAndroid.so
 vendor/lib/egl/libEGL_adreno.so
