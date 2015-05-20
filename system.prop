@@ -32,6 +32,10 @@ ro.gps.agps_provider=1
 persist.gps.qc_nlp_in_use=0
 persist.loc.nlp_name=com.qualcomm.services.location
 
+# Media
+mm.enable.qcom_parser=37491
+mm.enable.smoothstreaming=true
+
 # Perf
 ro.vendor.extension_library=/system/vendor/lib/libqc-opt.so
 ro.min_freq=787000

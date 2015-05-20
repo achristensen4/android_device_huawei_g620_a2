@@ -78,6 +78,37 @@ vendor/lib/libxtwifi_zpp_adaptor.so
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
 
+# Media
+lib/libOmxVdecHevc.so
+vendor/lib/libC2D2.so
+vendor/lib/libDivxDrm.so
+vendor/lib/libExtendedExtractor.so
+-vendor/lib/libHevcSwDecoder.so
+vendor/lib/libI420colorconvert.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib/libSHIMDivxDrm.so
+vendor/lib/libc2d2_z180.so
+vendor/lib/libc2d30-a3xx.so
+vendor/lib/libc2d30-a4xx.so
+vendor/lib/libc2d30.so
+vendor/lib/libmm-color-convertor.so
+vendor/lib/libmmQSM.so
+vendor/lib/libmmQTA.so
+vendor/lib/libmmhttpstack.so
+vendor/lib/libmmiipstreammmihttp.so
+vendor/lib/libmmipl.so
+vendor/lib/libmmipstreamaal.so
+vendor/lib/libmmipstreamnetwork.so
+vendor/lib/libmmipstreamsourcehttp.so
+vendor/lib/libmmipstreamutils.so
+vendor/lib/libmmosal.so
+vendor/lib/libmmparser.so
+vendor/lib/libmmrtpdecoder.so
+
 # Perf
 bin/mpdecision
 vendor/lib/libqc-opt.so
