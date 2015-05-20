@@ -99,6 +99,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lights.msm8226
 
+# Location
+PRODUCT_PACKAGES += \
+    gps.msm8226
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8226
