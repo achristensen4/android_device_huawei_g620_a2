@@ -1,0 +1,3 @@
+# Create socket in /dev/socket
+allow mpdecision socket_device:dir w_dir_perms;
+allow mpdecision socket_device:sock_file create;

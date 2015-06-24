@@ -116,7 +116,16 @@ BOARD_PROVIDES_LIBRIL := false
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-    device/qcom/sepolicy/msm8x26
+    device/qcom/sepolicy/msm8x26 \
+    device/huawei/g620_a2/sepolicy
+
+BOARD_SEPOLICY_UNION += \
+    file_contexts \
+    mpdecision.te \
+    rmt_storage.te \
+    system_server.te \
+    thermal-engine.te \
+    time_daemon.te
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true

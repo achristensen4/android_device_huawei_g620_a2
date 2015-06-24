@@ -1,0 +1,1 @@
+/data/cam_socket[0-9]*                          u:object_r:camera_socket:s0
