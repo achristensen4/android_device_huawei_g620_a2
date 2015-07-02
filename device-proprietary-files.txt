@@ -268,7 +268,6 @@ etc/permissions/qcrilhook.xml
 lib/liboeminfo.so
 lib/libqmi_nv_api.so
 lib/libqmi_oem_api.so
-#lib/libril.so
 vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so

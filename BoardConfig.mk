@@ -111,7 +111,7 @@ BOARD_CHARGING_CMDLINE_NAME := "androidboot.mode"
 BOARD_CHARGING_CMDLINE_VALUE := "hwcharger"
 
 # RIL
-BOARD_PROVIDES_LIBRIL := false
+BOARD_PROVIDES_LIBRIL := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
