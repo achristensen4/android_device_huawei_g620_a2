@@ -62,4 +62,4 @@ persist.radio.force_nw_search=1
 persist.radio.msgtunnel.start=false
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 ro.ril.transmitpower=true
-ro.use_data_netmgrd=1
+ro.use_data_netmgrd=true
