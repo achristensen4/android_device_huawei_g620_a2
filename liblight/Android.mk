@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_DEVICE),g620-a2)
+ifeq ($(TARGET_DEVICE),g620_a2)
 
 LOCAL_PATH:= $(call my-dir)
 # HAL module implemenation stored in
