@@ -85,20 +85,19 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     copybit.msm8226 \
     gralloc.msm8226 \
+	lights.msm8226 \
     hwcomposer.msm8226 \
     libtinyxml \
-    memtrack.msm8226
+    memtrack.msm8226 \
+    libgenlock \
+    liboverlay
 
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.msm8226
-
-# Keystore
+# Encryption
 PRODUCT_PACKAGES += \
     keystore.msm8226
 
