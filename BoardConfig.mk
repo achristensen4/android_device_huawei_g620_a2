@@ -136,6 +136,9 @@ BOARD_SEPOLICY_UNION += \
     thermal-engine.te \
     time_daemon.te
 
+# Vold
+BOARD_VOLD_MAX_PARTITIONS := 25
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
