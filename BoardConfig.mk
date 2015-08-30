@@ -139,6 +139,7 @@ BOARD_SEPOLICY_UNION += \
 
 # Vold
 BOARD_VOLD_MAX_PARTITIONS := 25
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
