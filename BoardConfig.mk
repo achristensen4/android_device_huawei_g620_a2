@@ -130,6 +130,7 @@ BOARD_SEPOLICY_DIRS += \
 
 BOARD_SEPOLICY_UNION += \
     file_contexts \
+    init.te \
     mpdecision.te \
     rmt_storage.te \
     system_server.te \
