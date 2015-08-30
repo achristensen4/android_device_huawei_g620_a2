@@ -439,6 +439,11 @@
         <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="1" />
     </path>
 
+    <path name="voice-call voice-speaker">
+        <path name="voice-call" />
+        <ctl name="RX3 Digital Volume" value="90" />
+    </path>
+
     <path name="voice-call bt-sco">
         <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer CSVoice" value="1" />
         <ctl name="Voice_Tx Mixer INTERNAL_BT_SCO_TX_Voice" value="1" />
@@ -788,7 +793,7 @@
     <path name="speaker">
         <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
-        <ctl name="RX4 MIX1 INP1" value="RX1" />
+        <ctl name="RX3 MIX1 INP1" value="RX1" />
         <ctl name="SPK DAC Switch" value="1" />
         <ctl name="COMP0 Switch" value="1" />
     </path>
@@ -1103,10 +1108,10 @@
         <ctl name="SLIM_0_RX AANC MUX" value="SLIMBUS_0_TX" />
         <ctl name="SLIM TX1 MUX" value="DEC1" />
         <ctl name="DEC1 MUX" value="ADC1" />
-        <ctl name="ADC1 Volume" value="11" />
+        <ctl name="ADC1 Volume" value="15" />
         <ctl name="SLIM TX2 MUX" value="DEC2" />
         <ctl name="DEC2 MUX" value="ADC3" />
-        <ctl name="ADC3 Volume" value="11" />
+        <ctl name="ADC3 Volume" value="15" />
         <ctl name="SLIM TX3 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <ctl name="ADC4 Volume" value="11" />
