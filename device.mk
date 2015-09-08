@@ -170,7 +170,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd.accept \
-    hostapd.conf \
+    hostapd_default.conf \
     hostapd.deny \
     p2p_supplicant_overlay.conf \
     wpa_supplicant.conf \
