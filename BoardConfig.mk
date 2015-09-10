@@ -86,6 +86,9 @@ TARGET_KERNEL_SOURCE := kernel/huawei/msm8226
 TARGET_KERNEL_CONFIG := hw8x26_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 
+# Libc extensions
+BOARD_PROVIDES_ADDITIONAL_BIONIC_STATIC_LIBS += libc_huawei_symbols
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
